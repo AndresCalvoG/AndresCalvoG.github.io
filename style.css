@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.main-head{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 100vw;
+    height: 15vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.main-head__picture{
+    padding: 0;
+    margin-top: 0;
+    width: 25vw;
+    height: 26.5vw;
+    order: 1;
+}
+.main-head h1{
+    text-align: center;
+    width: 75vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: white;
+    order:2;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    order:1;
+    overflow: auto;
+}
+.form_register{
+    width: 60vw;
+    height: 37rem;
+    margin: 2rem;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:solid;
+    border-radius: 2rem;
+}
+.form_register input[type=submit]{
+    width: 40%;
+    background-color:blue;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.4rem;
+    text-decoration: none;
+    margin: 1rem;
+    cursor:pointer;
+}
+.form_register h1{
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+.form_register__elem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+}
+.form_register__elem input{
+    width: 75%;
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+.form_register__elem span{
+    margin: 0.5rem;
+    font-weight: bold;
+}
+.form_register__elem input:focus{
+    background-color: lightblue;
+}
+.intro{
+    width: 100vw;
+    height: 42rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: blue;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    order:2;
+}
+.intro h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.next{
+    width: 100vw;
+    padding: 0.5rem;
+    border-style:none;
+    background-color: white;
+    order:3;
+}
+.main-foot{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: blue;
+    width: 100vw;
+    height: 5vh;
+    order:4;
+}
+
+

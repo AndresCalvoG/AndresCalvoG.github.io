@@ -98,12 +98,11 @@ img{
     background-color: lightblue;
 }
 .intro{
-    width: 100vw;
+    width: 85vw;
     height: 42rem;
-    padding: 1.5rem;
-    margin: 1rem;
-    background-color: blue;
-    font-size: 1.6rem;
+    padding: 0;
+    background-color: white;
+    font-size: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     order:2;
@@ -118,6 +117,24 @@ img{
 }
 .intro a:hover{
     cursor: pointer;
+}
+.intro-test{
+    justify-content: center;
+    width: 85vw;
+    height: 42rem;
+    padding: 1.5rem;
+    background-color: blue;
+    font-size: 1.8rem;
+    border-radius: 20px;
+}
+.intro-test--icon{
+    width: 20rem;
+    height: 20rem;
+}
+.intro-test--img{
+    display:flex;
+    justify-content: center;
+    
 }
 .next{
     width: 100vw;

@@ -112,6 +112,13 @@ img{
     text-align: center;
     font-size: 3rem;
 }
+.intro a{
+    text-decoration: none;
+    color: white;
+}
+.intro a:hover{
+    cursor: pointer;
+}
 .next{
     width: 100vw;
     padding: 0.5rem;

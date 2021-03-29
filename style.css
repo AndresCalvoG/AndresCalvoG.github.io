@@ -9,9 +9,9 @@ html{
 .main-head{
     display: flex;
     justify-content: flex-start;
-    background-color: blue;
+    background-color: rgb(62, 62, 231);
     width: 100vw;
-    height: 9rem;
+    height: 10rem;
 }
 img{
     width: 100%;
@@ -21,7 +21,7 @@ img{
     padding: 0;
     margin-top: 0;
     width: 25vw;
-    height: 9rem;
+    height: 10rem;
     order: 1;
 }
 
@@ -56,7 +56,7 @@ img{
     width: 60vw;
     height: 37rem;
     margin: 2rem;
-    border-color: blue;
+    border-color: rgb(62, 62, 231);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,7 @@ img{
 }
 .form_register input[type=submit]{
     width: 40%;
-    background-color:blue;
+    background-color:rgb(62, 62, 231);
     border: none;
     border-radius: 0.5rem;
     color: white;
@@ -91,7 +91,7 @@ img{
 }
 .form_register__elem input{
     width: 75%;
-    border: 2px solid blue;
+    border: 2px solid rgb(62, 62, 231);
     border-radius: 4px;
     padding: 0.5rem;
 }
@@ -103,7 +103,7 @@ img{
     background-color: lightblue;
 }
 .intro{
-    width: 85vw;
+    width: 100vw;
     height: 42rem;
     padding: 0;
     background-color: white;
@@ -125,12 +125,12 @@ img{
 }
 .intro-test{
     justify-content: center;
-    width: 85vw;
-    height: 42rem;
+    padding: 1rem;
+    width: 100vw;
+    height: 38rem;
     padding: 1.5rem;
-    background-color: blue;
+    background-color: rgb(62, 62, 231);
     font-size: 1.8rem;
-    border-radius: 20px;
 }
 .intro-test--icon{
     width: 20rem;
@@ -142,23 +142,24 @@ img{
     
 }
 .next{
-    width: 90vw;
+    width: 100vw;
     padding: 0.5rem;
     border-style:none;
     background-color: white;
     order:3;
 }
 .main-foot{
+    margin-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: white;
-    background-color: blue;
+    background-color: rgb(62, 62, 231);
     width: 100vw;
     height: 3rem;
-    order:4;
+    order: 4;
 }
 
 

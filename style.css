@@ -48,9 +48,8 @@ img{
     justify-content: flex-start;
     align-items: center;
     width: 100vw;
-    height: 80vh;
     order:1;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 .form_register{
     width: 60vw;

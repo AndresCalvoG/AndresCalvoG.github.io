@@ -1,3 +1,6 @@
+:root{
+    --blue:#3E3EE7;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +16,7 @@ html{
 .main-head{
     display: flex;
     justify-content: flex-start;
-    background-color: rgb(62, 62, 231);
+    background-color: var(--blue);
     width: 100vw;
     height: 10rem;
 }
@@ -125,7 +128,7 @@ img{
     width: 100vw;
     height: 38rem;
     padding: 1.5rem;
-    background-color: rgb(62, 62, 231);
+    background:linear-gradient(180deg,rgb(62, 62, 231) 40%,white 100%);
 }
 .intro-test p{
     font-size: 1.8rem;
@@ -173,7 +176,7 @@ img{
     border-radius: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     color: black;
-    background: linear-gradient(207.8deg,rgb(255, 255, 255) 1%,rgb(62, 62, 231) 100%);
+    background: linear-gradient(207.8deg,rgb(62, 62, 231) 20%, rgb(255, 255, 255)100%);
 }
 .main-foot{
     margin-bottom: 0px;

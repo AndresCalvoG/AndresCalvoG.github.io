@@ -1,0 +1,134 @@
+:root{
+    --blue:#3E3EE7;
+    --Darkblue:#1D1A27;
+    --watergreen:#649EAA;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+}
+a{
+    text-decoration:none ;
+    display: inline;
+    color: black;
+}
+header{
+    width: 100vw;
+    height: 170px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 30px;
+}
+header .header-icons-container{
+    width: 100vw;
+    height: 50px;
+    display: grid;
+    background: var(--blue);
+}
+header .header-icons-container div{
+    width: 300px;
+    height: auto;
+    display:flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-self: end;
+    margin: 0 auto;
+}
+header .icons .icons-format{
+    width:30px;
+    height: auto;
+   
+}
+header .icons a{
+    /*background-color: white;*/
+    border-radius: 30px;
+    width: 29.5px;
+    height: 29.5px;
+}
+nav{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 125px;
+}
+nav .nav-logo-container{
+    margin-left: 10px;
+}
+nav .nav-logo-container img{
+    margin-top: 10px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 1.8rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    background: var(--Darkblue) ;
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+.container-main-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.container-main-image img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container-main-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.container-main-button button{
+    width: 130px;
+    height: 40px;
+    background: var(--blue);
+    border:0;
+    font-size: 2rem;
+    font-family: 'Balsamiq Sans', cursive;
+    box-shadow: 0 4px 8px -1px rgba(255, 255, 255, 0.3);
+}
+.container-main-button a{
+    color: white;
+}
+.container-main-button p{
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align:center;
+    padding: 0;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+}

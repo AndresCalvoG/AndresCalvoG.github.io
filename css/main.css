@@ -51,12 +51,6 @@ header .icons .icons-format{
     height: auto;
    
 }
-header .icons a{
-    /*background-color: white;*/
-    border-radius: 30px;
-    width: 29.5px;
-    height: 29.5px;
-}
 nav{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -100,7 +94,7 @@ nav .profile-link a{
 }
 .container-main-image img{
     display: block;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .container-main-button{
